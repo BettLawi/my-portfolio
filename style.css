@@ -1,0 +1,106 @@
+* {
+    font-family: 'Popins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:#1f2833;
+    color: #ededed;
+}
+img{
+    height: 500px;
+    width: 600px;
+    border-radius: 60%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 30px;
+    color: #c5c6c7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #c5c6c7;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 25px;
+    transition: width 2s;
+}
+
+.navbar a:hover {
+    color: #00abf0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+
+}
+
+.content {
+    max-width: 600px;
+}
+
+.content h1 {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content h3 {
+    color: #66fcf1;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content p {
+    color: #c5c6c7;
+    font-size: 16px;
+}
+
+
+.socials {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+}
+
+.socials a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.socials a:hover {
+    color: #66fcf1;
+}
