@@ -104,3 +104,21 @@ img{
 .socials a:hover {
     color: #66fcf1;
 }
+@media screen and (max-width:1300px) 
+{
+    .content h1 {
+        font-size: 22px;
+        line-height: 0.5;
+    }
+    .navbar a {
+         font-size: 10px;
+    }
+    .content h3 {
+        font-size: 16px;
+    }
+    img{
+        height: 100px;
+        width: 150px;
+        border-radius: 60%;
+    }
+}
